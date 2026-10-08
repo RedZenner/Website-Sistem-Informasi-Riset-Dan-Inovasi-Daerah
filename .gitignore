@@ -19,16 +19,16 @@ config.production.json
 content/logs/
 
 # 3. Database & User Uploads (SQLite, Images, Media)
-content/data/*.db
-content/data/*.db-journal
-content/images/
-content/media/
-content/files/
+#content/data/*.db
+#content/data/*.db-journal
+#content/images/
+#content/media/
+#content/files/
 
 # 4. Default Ghost Themes (Biarkan kosong jika kamu pakai tema kustom sendiri)
-content/themes/casper/
-content/themes/edition/
-content/themes/source/
+#content/themes/casper/
+#content/themes/edition/
+#content/themes/source/
 
 # 5. OS & IDE Artifacts (Mac, Windows, VS Code)
 .DS_Store

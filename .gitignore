@@ -5,7 +5,6 @@
 # 1. Package Manager & Node Dependencies (PNPM/NPM/Yarn)
 .pnpm-store/
 node_modules/
-/core/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*

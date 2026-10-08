@@ -1,0 +1,43 @@
+# =========================================================================
+# GHOST CMS + PNPM - ALL-IN-ONE GITIGNORE
+# =========================================================================
+
+# 1. Package Manager & Node Dependencies (PNPM/NPM/Yarn)
+.pnpm-store/
+node_modules/
+/core/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 2. Ghost Configuration & System Files
+config.development.json
+config.production.json
+.ghostpid
+*.log
+content/logs/
+
+# 3. Database & User Uploads (SQLite, Images, Media)
+content/data/*.db
+content/data/*.db-journal
+content/images/
+content/media/
+content/files/
+
+# 4. Default Ghost Themes (Biarkan kosong jika kamu pakai tema kustom sendiri)
+content/themes/casper/
+content/themes/edition/
+content/themes/source/
+
+# 5. OS & IDE Artifacts (Mac, Windows, VS Code)
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
